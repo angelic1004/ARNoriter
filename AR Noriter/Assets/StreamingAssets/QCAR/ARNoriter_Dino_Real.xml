@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="real_Allosaurus" size="100.000000 100.000000" />
+    <ImageTarget name="real_Ankylosaurus" size="100.000000 100.000000" />
+    <ImageTarget name="real_Apatosaurus" size="100.000000 100.000000" />
+    <ImageTarget name="real_Brachiosaurus" size="100.000000 100.000000" />
+    <ImageTarget name="real_Carnotaurus" size="100.000000 100.000000" />
+    <ImageTarget name="real_Compsognatus" size="100.000000 100.000000" />
+    <ImageTarget name="real_Gallimimus" size="100.000000 100.000000" />
+    <ImageTarget name="real_Pachycephalosaur" size="100.000000 100.000000" />
+    <ImageTarget name="real_Parasaurolophus" size="100.000000 100.000000" />
+    <ImageTarget name="real_Pteranodon" size="100.000000 100.000000" />
+    <ImageTarget name="real_Sinoceratops" size="100.000000 100.000000" />
+    <ImageTarget name="real_Stegosaurus" size="100.000000 100.000000" />
+    <ImageTarget name="real_TranosaurusRex" size="100.000000 100.000000" />
+    <ImageTarget name="real_Triceratops" size="100.000000 100.000000" />
+    <ImageTarget name="real_Velociraptor" size="100.000000 100.000000" />
+  </Tracking>
+</QCARConfig>

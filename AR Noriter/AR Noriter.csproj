@@ -1,0 +1,653 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5D352E2C-DBDD-9711-7691-1D6681F57BC5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.3.5p5</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;VUFORIA_ANDROID_SETTINGS;</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;VUFORIA_ANDROID_SETTINGS;</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="Dispatch">
+      <HintPath>Assets/NatCorder/Plugins/Managed/Dispatch/Dispatch.dll</HintPath>
+    </Reference>
+    <Reference Include="WP8Screenshot">
+      <HintPath>Assets/Plugins/WP8Screenshot.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.unity">
+      <HintPath>Assets/Plugins/zxing.unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\EasyMovieTexture\FFmpeg.AutoGen\FFmpeg.avcodec.g.cs" />
+    <Compile Include="Assets\EasyMovieTexture\FFmpeg.AutoGen\FFmpeg.avdevice.g.cs" />
+    <Compile Include="Assets\EasyMovieTexture\FFmpeg.AutoGen\FFmpeg.avfilter.g.cs" />
+    <Compile Include="Assets\EasyMovieTexture\FFmpeg.AutoGen\FFmpeg.avformat.g.cs" />
+    <Compile Include="Assets\EasyMovieTexture\FFmpeg.AutoGen\FFmpeg.avutil.g.cs" />
+    <Compile Include="Assets\EasyMovieTexture\FFmpeg.AutoGen\FFmpeg.swresample.g.cs" />
+    <Compile Include="Assets\EasyMovieTexture\FFmpeg.AutoGen\FFmpeg.swscale.g.cs" />
+    <Compile Include="Assets\EasyMovieTexture\FFmpeg.AutoGen\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\EasyMovieTexture\FFmpeg.AutoGen\Unresolved.cs" />
+    <Compile Include="Assets\EasyMovieTexture\Scripts\MedaiPlayerSampleGUI.cs" />
+    <Compile Include="Assets\EasyMovieTexture\Scripts\MedaiPlayerSampleSphereGUI.cs" />
+    <Compile Include="Assets\EasyMovieTexture\Scripts\MediaPlayerCtrl.cs" />
+    <Compile Include="Assets\EasyMovieTexture\Scripts\MediaPlayerEvent.cs" />
+    <Compile Include="Assets\EasyMovieTexture\Scripts\MediaPlayerFullScreenCtrl.cs" />
+    <Compile Include="Assets\EasyMovieTexture\Scripts\SeekBarCtrl.cs" />
+    <Compile Include="Assets\EasyMovieTexture\Scripts\SphereMirror.cs" />
+    <Compile Include="Assets\EasyMovieTexture\Scripts\VideoCopyTexture.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\AdvancedExamples\AutoSelect\MultiLayerTouch.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\AdvancedExamples\AutoSelect\MultiLayerUI.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\AdvancedExamples\MultiCamera\MultiCameraTouch.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\AdvancedExamples\MultiCamera\MultiCameraUI.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\GameExemple\RTSExample\CubeSelect.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\GameExemple\RTSExample\RTSCamera.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\GameExemple\RunBall\Ball.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\GameExemple\RunBall\BallRunPlayer.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\GameExemple\RunBall\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\LoadExamples.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\MultiFinger\FingerTouch.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\MultiFinger\MutliFingersScreenTouch.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\OneFinger\DoubleTapMe.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\OneFinger\DragMe.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\OneFinger\LongTapMe.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\OneFinger\Swipe.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\OneFinger\TapMe.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\OneFinger\TouchMe.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\PinchMe.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TooglePickMethodUI.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TwistMe.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TwoDoubleTapMe.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TwoDragMe.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TwoLongTapMe.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TwoSwipe.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TwoTapMe.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TwoTouchMe.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\UnityUI\UICompatibility\ETWindow.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\UnityUI\UICompatibility\GlobalEasyTouchEvent.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\UnityUI\UICompatibility\UICompatibility.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\UnityUI\UICompatibility\UIWindow.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\UnityUI\UITwistPinch\UIDrag.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\UnityUI\UITwistPinch\UIPinch.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\UnityUI\UITwistPinch\UITwist.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\5.X new features\Script\RTS_NewSyntaxe.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\5.X new features\Script\SimpleActionExample.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Components\EasyTouchTrigger.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickBase.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickDrag.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickEnterOverExist.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickLongTap.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickPinch.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickSwipe.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickTap.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickTouch.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickTwist.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Engine\BaseFinger.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Engine\ECamera.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Engine\EasyTouch.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Engine\EasyTouchInput.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Engine\Finger.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Engine\Gesture.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Engine\TwoFingerGesture.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Component\ETCSetDirectActionTransform.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\Button-Event-Input\ButtonInputUI.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\Button-Event-Input\ButtonUIEvent.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\ControlEventInput\ControlUIEvent.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\ControlEventInput\ControlUIInput.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\DPadClassicalTime\DPadParameterUI.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\FPSExample\FPSPlayerControl.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\FPSExample\ImpactEffect.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\JoystickParameter\AxisXUi.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\LoadLevelScript.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\TouchPad-Event-Input\TouchPadUIEvent.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 2.X_New Features\Script\CharacterAnimation.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 2.X_New Features\Script\CharacterAnimationDungeon.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\_Medias\SliderText.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\ComponentExtensions.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\ETCArea.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\ETCAxis.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\ETCBase.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\ETCButton.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\ETCDPad.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\ETCInput.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\ETCJoystick.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\ETCTouchPad.cs" />
+    <Compile Include="Assets\GalleryScreenshot\Example\DemoScript.cs" />
+    <Compile Include="Assets\GalleryScreenshot\ScreenshotManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Aquarium\Fishing\FishingControllUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Aquarium\Fishing\SideWallCollider.cs" />
+    <Compile Include="Assets\HansAR\Scripts\AssetBundle\AssetBundleLoader.cs" />
+    <Compile Include="Assets\HansAR\Scripts\CircleMainMenu\CircleMenuManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\CircleMainMenu\CircleMenuUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\CircleMainMenu\SkyBoxManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Coloring\CameraAngleCheck.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Coloring\ColoringManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Coloring\ColoringSlideManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Coloring\CrayonInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\DanceContents\DanceAudioManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Driving\Car_Ctrl.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Driving\CollisionInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Driving\DriveUseCheck.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Driving\DrivingAnimation.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Driving\DrivingInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Driving\DrivingUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Driving\Driving_Sound.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Driving\Event_Info.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Driving\FollowCam.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Driving\MapInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\FishingGame\FishSpeciesInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\FishingGame\FishingCameraMove.cs" />
+    <Compile Include="Assets\HansAR\Scripts\FishingGame\FishingGameManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\FishingGame\FishingGameUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\FishingGame\FishingMapInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\HansMenu\HMSlideDrop\HMCategoryInfoManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\HansMenu\HMSlideDrop\HMSlideDropAssetDownloader.cs" />
+    <Compile Include="Assets\HansAR\Scripts\HansMenu\HMSlideDrop\HMSlideDropDownloaderUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\HansMenu\HMSlideDrop\HMSlideDropUIManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\HouseMenu\HouseCoverFlowUnit.cs" />
+    <Compile Include="Assets\HansAR\Scripts\HouseMenu\HouseMenuManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\HouseMenu\HouseMenuUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\KartGame\DisableMapProp.cs" />
+    <Compile Include="Assets\HansAR\Scripts\KartGame\KartGameManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\KartGame\KartGameMapInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\KartGame\KartItemManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\KartGame\KartPlayerManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Localize\AutoLocalize.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Localize\LanguageChinese.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Localize\LanguageEnglish.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Localize\LanguageIndonesian.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Localize\LanguageJapanese.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Localize\LanguageKorean.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Localize\LanguageVietnamese.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Localize\LocalizeID.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Localize\LocalizeSetting.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Manager\AndroidPermissionManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Manager\AnimationManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Manager\AnimationPlayManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Manager\DubbingManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Manager\EffectSoundManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Manager\ExploreManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Manager\GlobalDataManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Manager\LanguageManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Manager\ListenManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Manager\LoadingManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Manager\MatchingManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Manager\QnA_Manager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Manager\ScriptOrderManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Manager\ShotManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Manager\SliderManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Manager\SplashManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Manager\TargetManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Manager\TouchEventManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Manager\TweenManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Maze\MazeGameManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Maze\MazeGameUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Maze\MazeInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Maze\MazePosInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Maze\MazeSelectUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\MiniMap\FollowObj.cs" />
+    <Compile Include="Assets\HansAR\Scripts\MiniMap\MiniMapAnimationControl.cs" />
+    <Compile Include="Assets\HansAR\Scripts\MiniMap\MiniMapInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\MiniMap\MiniMapManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\MiniMap\MiniMapObjectTouchManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\MiniMap\MiniMapRotateUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\MiniMap\MiniMapSlerp.cs" />
+    <Compile Include="Assets\HansAR\Scripts\MiniMap\MiniMapTouchManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Mouse\MouseEventManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Mouse\ParticleDel.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Mouse\ParticleSet.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Observe\ControlLangManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Observe\ControlManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Observe\ObSelectManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Observe\ObserveManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Observe\ObserveRotateManger.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\AquariumInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\AutoFocusMode.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\BattleModelInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\BtnTweenInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\ButtonInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\ColoringInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\DanceModelInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\HansMediaPlayerEvent.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\ImageMarkerEvent.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\ImageMarkerPass.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\ImagePuzzleMarkerEvent.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\IniFile.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\ListenInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\ModelInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\ModelLabelInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\MovieInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\NavigationInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\ObbExtractor.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\PuzzleContentInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\RoadScroll.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\ShareWithApp.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\Singleton.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\TrainInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\UiEventLinkManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Other\WaveFileWriter.cs" />
+    <Compile Include="Assets\HansAR\Scripts\PassTarget\PassTargetManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\PassTarget\PassTargetUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\PostCard\LetterInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\PostCard\LetterManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\PostCard\LetterNomodelManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\PostCard\LetterTextLabel\LetterTextLabelManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\PostCard\LetterTexture\LetterPreviewTouchManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\PostCard\LetterVideo\LetterComponentManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\PostCard\LetterVideo\MediaPlayerUtil\MediaPlayerCtrlBase.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Princess\BgmInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Princess\BgmManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Princess\PincerTrigger.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Princess\PrincessCoverFlow.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Princess\PrincessCoverFlowPosition.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Princess\PrincessManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Princess\RunwayHumanInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Princess\RunwayManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Princess\RunwayMinimapInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\PrincessPaint\PrincessPaintManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Puzzle\DragPuzzle\DragPuzzleManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Puzzle\PuzzleManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Puzzle\PuzzleMatching.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Puzzle\PuzzleUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\RacingCar\RacingCol.cs" />
+    <Compile Include="Assets\HansAR\Scripts\RacingCar\RacingDrive.cs" />
+    <Compile Include="Assets\HansAR\Scripts\RacingCar\RacingDriveSelectUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\RacingCar\RacingDriveUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\RacingCar\RacingFourD.cs" />
+    <Compile Include="Assets\HansAR\Scripts\RacingCar\RacingGame.cs" />
+    <Compile Include="Assets\HansAR\Scripts\RacingCar\RacingSoundControl.cs" />
+    <Compile Include="Assets\HansAR\Scripts\RacingCar\RacingSoundInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\RacingCar\RacingTrackInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\SketchBook\Map\QuestionInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\SketchBook\ProductSticker\StickerManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\SketchBook\QuizQuiz\QuizQuizInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\SketchBook\QuizQuiz\QuizQuizManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\SketchBook\QuizQuiz\QuizQuizUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\SketchBook\SketchBookTargetInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\SketchBook\SketchBookTouchEvent.cs" />
+    <Compile Include="Assets\HansAR\Scripts\SketchBook\SketchBookUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Tutorial\TutorialUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\UI\AnimationMotionUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\UI\BaseMainUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\UI\CameraRotateManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\UI\FileDownloaderUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\UI\MainMenuUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\UI\MainUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\UI\MatchingUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\UI\MoviePreviewUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\UI\NatCorderRecordScreenUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\UI\NavigationUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\UI\PrincessUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\UI\Product\JsonHelper.cs" />
+    <Compile Include="Assets\HansAR\Scripts\UI\Product\ProductListUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\UI\Product\ProductMenuButtonInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\UI\QRCodeUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\UI\RotateUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\UI\SideMenuUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\UI\ToastMessageUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Utils\LocalizeManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Utils\LocalizeText.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Utils\LocalizeValue.cs" />
+    <Compile Include="Assets\HansAR\Scripts\WWW\DownloadManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\WWW\HttpRequestDataSet.cs" />
+    <Compile Include="Assets\HansAR\Scripts\WWW\WrapperWWW.cs" />
+    <Compile Include="Assets\HansAR\Scripts\WatchCar\Battle\AutoDestroy.cs" />
+    <Compile Include="Assets\HansAR\Scripts\WatchCar\Battle\MissileAutoDestroy.cs" />
+    <Compile Include="Assets\HansAR\Scripts\WatchCar\Battle\ParticleInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\WatchCar\Battle\RailGunAutoDestroy.cs" />
+    <Compile Include="Assets\HansAR\Scripts\WatchCar\Battle\TriggerDestroy.cs" />
+    <Compile Include="Assets\HansAR\Scripts\WatchCar\Battle\WatchCarBattleAniManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\WatchCar\Battle\WatchCarBattleManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\WatchCar\Battle\WatchCarBattleSoundInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\WatchCar\Battle\WatchCarBattleSoundManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\WatchCar\Battle\WatchCarBattleTargetInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\WatchCar\Battle\WatchCarBattleUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\WatchCar\Battle\WatchCarCardInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\WatchCar\Battle\WatchCarEffectManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\WatchCar\DriveEdu\DriveEduCol.cs" />
+    <Compile Include="Assets\HansAR\Scripts\WatchCar\DriveEdu\DriveEduManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\WatchCar\DriveEdu\DriveEduSoundManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\WatchCar\DriveEdu\DriveEduStartUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\WatchCar\DriveEdu\DriveEduUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\WatchCar\DriveEdu\DriveSoundInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Word\DiceInfo.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Word\WordGameManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\Word\WordUI.cs" />
+    <Compile Include="Assets\HansAR\Scripts\noriter_puzzle\NrPuzzleManager.cs" />
+    <Compile Include="Assets\HansAR\Scripts\noriter_puzzle\NrPuzzleUI.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\LanguageSelection.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\TypewriterEffect.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButton.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonActivate.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonColor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonKeys.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonMessage.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonOffset.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonRotation.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonScale.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UICenterOnChild.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UICenterOnClick.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragCamera.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragDropContainer.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragDropItem.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragDropRoot.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragObject.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragResize.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragScrollView.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIDraggableCamera.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIEventTrigger.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIForwardEvents.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIGrid.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIImageButton.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIKeyBinding.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIKeyNavigation.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIPlayAnimation.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIPlaySound.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIPlayTween.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIPopupList.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIProgressBar.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UISavedOption.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIScrollBar.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIScrollView.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIShowControlScheme.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UISlider.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UISoundVolume.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UITable.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIToggle.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIToggledComponents.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIToggledObjects.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIWidgetContainer.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIWrapContent.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\ActiveAnimation.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\AnimationOrTween.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\BMFont.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\BMGlyph.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\BMSymbol.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\BetterList.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\ByteReader.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\EventDelegate.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\Localization.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\NGUIDebug.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\NGUIMath.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\NGUIText.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\NGUITools.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\PropertyBinding.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\PropertyReference.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\RealTime.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\SpringPanel.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\UIBasicSprite.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\UIDrawCall.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\UIEventListener.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\UIGeometry.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\UIRect.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\UISnapshotPoint.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\UIWidget.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\AnimatedAlpha.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\AnimatedColor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\AnimatedWidget.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\SpringPosition.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenAlpha.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenColor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenFOV.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenHeight.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenOrthoSize.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenPosition.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenRotation.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenScale.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenTransform.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenVolume.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenWidth.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\UITweener.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UI2DSprite.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UI2DSpriteAnimation.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIAnchor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIAtlas.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UICamera.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIColorPicker.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIFont.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIInput.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIInputOnGUI.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UILabel.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UILocalize.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIOrthoCamera.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIPanel.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIRoot.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UISprite.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UISpriteAnimation.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UISpriteData.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIStretch.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UITextList.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UITexture.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
+    <Compile Include="Assets\NatCorder\Plugins\Managed\Clocks\RealtimeClock.cs" />
+    <Compile Include="Assets\NatCorder\Plugins\Managed\Dispatch\RenderDispatch.cs" />
+    <Compile Include="Assets\NatCorder\Plugins\Managed\IClock.cs" />
+    <Compile Include="Assets\NatCorder\Plugins\Managed\INatCorder.cs" />
+    <Compile Include="Assets\NatCorder\Plugins\Managed\IRecorder.cs" />
+    <Compile Include="Assets\NatCorder\Plugins\Managed\NatCorder.cs" />
+    <Compile Include="Assets\NatCorder\Plugins\Managed\NatCorderDocs.cs" />
+    <Compile Include="Assets\NatCorder\Plugins\Managed\NatCorderTypes.cs" />
+    <Compile Include="Assets\NatCorder\Plugins\Managed\Platforms\NatCorderAndroid.cs" />
+    <Compile Include="Assets\NatCorder\Plugins\Managed\Platforms\NatCorderBridge.cs" />
+    <Compile Include="Assets\NatCorder\Plugins\Managed\Platforms\NatCorderNull.cs" />
+    <Compile Include="Assets\NatCorder\Plugins\Managed\Platforms\NatCorderOSX.cs" />
+    <Compile Include="Assets\NatCorder\Plugins\Managed\Platforms\NatCorderWebGL.cs" />
+    <Compile Include="Assets\NatCorder\Plugins\Managed\Platforms\NatCorderWindows.cs" />
+    <Compile Include="Assets\NatCorder\Plugins\Managed\Platforms\NatCorderiOS.cs" />
+    <Compile Include="Assets\NatCorder\Plugins\Managed\Recorders\AudioRecorder.cs" />
+    <Compile Include="Assets\NatCorder\Plugins\Managed\Recorders\CameraRecorder.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\MultiKeyDictionary.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Reporter.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\ReporterGUI.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\ReporterMessageReceiver.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Test\Rotate.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Test\TestReporter.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\DatabaseLoadBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\DefaultSmartTerrainEventHandler.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\DeviceTrackerBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\DigitalEyewearBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\GLErrorHandler.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\HideExcessAreaBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\ImageTargetBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Internal\AndroidUnityPlayer.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Internal\ComponentFactoryStarterBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Internal\IOSUnityPlayer.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Internal\VuforiaBehaviourComponentFactory.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\KeepAliveBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\MarkerBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\MaskOutBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\MultiTargetBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\ObjectTargetBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\PropBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\ReconstructionBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\ReconstructionFromTargetBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\SmartTerrainTrackerBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\SurfaceBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\TextRecoBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\TurnOffBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\TurnOffWordBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\UserDefinedTargetBuildingBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Utilities\VRIntegrationHelper.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\VideoBackgroundBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\VideoBackgroundManager.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\VirtualButtonBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\VuforiaBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\WebCamBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\EasyMovieTexture\Chromakey.shader" />
+    <None Include="Assets\EasyMovieTexture\Chromakey2.shader" />
+    <None Include="Assets\EasyMovieTexture\Unlit_SphereInside.shader" />
+    <None Include="Assets\EasyMovieTexture\readme.txt" />
+    <None Include="Assets\EasyMovieTexture\readme_License.txt" />
+    <None Include="Assets\EasyTouchBundle\EasyTouch\How to migrate from EasyTouch 4.X.txt" />
+    <None Include="Assets\EasyTouchBundle\EasyTouch\RealseNotes.txt" />
+    <None Include="Assets\EasyTouchBundle\EasyTouch\_Documentation\How to migrate from EasyTouch 4.X.txt" />
+    <None Include="Assets\EasyTouchBundle\EasyTouchControls\Documentation\Version 2.0.txt" />
+    <None Include="Assets\EasyTouchBundle\EasyTouchControls\Issues in button behavior (MAC).txt" />
+    <None Include="Assets\EasyTouchBundle\EasyTouchControls\ReleaseNotes.txt" />
+    <None Include="Assets\EasyTouchBundle\Readme.txt" />
+    <None Include="Assets\HansAR\readme.txt" />
+    <None Include="Assets\NGUI\ReadMe - 3.9.6.txt" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (TextureClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text (TextureClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (TextureClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (TextureClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 1.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 2.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 3.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+    <None Include="Assets\NatCorder\Resources\GreyWorld.shader" />
+    <None Include="Assets\NatCorder\Resources\Transform.shader" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\GalleryScreenshot\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\GalleryScreenshot\bin\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\GalleryScreenshot\bin\R.txt" />
+    <None Include="Assets\Plugins\zxing.unity.xml" />
+    <None Include="Assets\Resources\Shader\Additive_Base.shader" />
+    <None Include="Assets\Resources\Shader\Alpha_Texture.shader" />
+    <None Include="Assets\Resources\Shader\DoubleSide.shader" />
+    <None Include="Assets\Resources\Shader\DoubleSided-Light-Spec.shader" />
+    <None Include="Assets\Resources\Shader\DoubleSided.shader" />
+    <None Include="Assets\Resources\Shader\Ground_Layer.shader" />
+    <None Include="Assets\Resources\Shader\HansApp - Combine 2 Textures (Alpha blended).shader" />
+    <None Include="Assets\Resources\Shader\HansApp - Texture with Color - ToSide.shader" />
+    <None Include="Assets\Resources\Shader\HansApp - Texture with Color.shader" />
+    <None Include="Assets\Resources\Shader\MaskShader.shader" />
+    <None Include="Assets\Resources\Shader\MvngSea.shader" />
+    <None Include="Assets\Resources\Shader\OutLine.shader" />
+    <None Include="Assets\Resources\Shader\ToSide.shader" />
+    <None Include="Assets\Resources\Shader\UR.shader" />
+    <None Include="Assets\Resources\Shader\Unlit - Alpha Mask.shader" />
+    <None Include="Assets\Resources\Shader\Unlit - Transparent Masked.shader" />
+    <None Include="Assets\Resources\Shader\Unlit-Alpha.shader" />
+    <None Include="Assets\Resources\Shader\Unlit-AlphaTest-SoftEdge.shader" />
+    <None Include="Assets\Resources\Shader\Unlit-AlphaTest.shader" />
+    <None Include="Assets\Resources\Shader\Unlit-Color.shader" />
+    <None Include="Assets\Resources\Shader\Unlit-Normal.shader" />
+    <None Include="Assets\Resources\Shader\UnlitVertexColour_Alpha.shader" />
+    <None Include="Assets\Resources\Shader\VertMove.shader" />
+    <None Include="Assets\StreamingAssets\QCAR\ARNoriter_Alphabet_Real.xml" />
+    <None Include="Assets\StreamingAssets\QCAR\ARNoriter_Animal_Real.xml" />
+    <None Include="Assets\StreamingAssets\QCAR\ARNoriter_Animal_Sketch.xml" />
+    <None Include="Assets\StreamingAssets\QCAR\ARNoriter_City_Real.xml" />
+    <None Include="Assets\StreamingAssets\QCAR\ARNoriter_City_Sketch.xml" />
+    <None Include="Assets\StreamingAssets\QCAR\ARNoriter_Dino_Real.xml" />
+    <None Include="Assets\StreamingAssets\QCAR\ARNoriter_Dino_Sketch.xml" />
+    <None Include="Assets\StreamingAssets\QCAR\ARNoriter_One_Sample.xml" />
+    <None Include="Assets\StreamingAssets\QCAR\ARNoriter_SeaAnimal_Real.xml" />
+    <None Include="Assets\StreamingAssets\QCAR\ARNoriter_SeaAnimal_Sketch.xml" />
+    <None Include="Assets\StreamingAssets\QCAR\Fabric_Alphabet.xml" />
+    <None Include="Assets\StreamingAssets\QCAR\Fabric_CharAlpha.xml" />
+    <None Include="Assets\StreamingAssets\QCAR\HansARWorld_Magnet_Vehic.xml" />
+    <None Include="Assets\StreamingAssets\QCAR\KikyAR_Sample.xml" />
+    <None Include="Assets\StreamingAssets\QCAR\Magnet_Vehic2.xml" />
+    <None Include="Assets\StreamingAssets\QCAR\Magnet_VehicPuzzle.xml" />
+    <None Include="Assets\StreamingAssets\QCAR\SampleTarget.xml" />
+    <None Include="Assets\StreamingAssets\build_info.txt" />
+    <None Include="Assets\Vuforia\Editor\Scripts\Vuforia.UnityExtensions.Editor.XML" />
+    <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
+    <None Include="Assets\Vuforia\Scripts\Internal\Vuforia.UnityExtensions.XML" />
+    <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+    <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
+    <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+    <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+    <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
+    <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
+    <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+    <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+    <None Include="Assets\license_3rdpartynotice.txt" />
+    <None Include="Assets\link.xml" />
+    <None Include="Assets\readme_SDK.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

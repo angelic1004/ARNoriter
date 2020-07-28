@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="schoolbus_2" size="75.000000 28.897058" />
+    <ImageTarget name="schoolbus" size="75.000000 85.367645" />
+    <ImageTarget name="policecar_2" size="75.000000 28.897058" />
+    <ImageTarget name="policecar" size="75.000000 85.367645" />
+    <ImageTarget name="helicopter_2" size="75.000000 28.897058" />
+    <ImageTarget name="helicopter" size="75.000000 85.367645" />
+    <ImageTarget name="firetruck_2" size="75.000000 28.897058" />
+    <ImageTarget name="firetruck" size="75.000000 85.367645" />
+    <ImageTarget name="excavator_2" size="75.000000 28.897058" />
+    <ImageTarget name="excavator" size="75.000000 85.367645" />
+    <ImageTarget name="dumptruck_2" size="75.000000 28.897058" />
+    <ImageTarget name="dumptruck" size="75.000000 85.367645" />
+    <ImageTarget name="ambulance_2" size="75.000000 28.897058" />
+    <ImageTarget name="ambulance" size="75.000000 85.367645" />
+    <ImageTarget name="airplane_2" size="75.000000 28.897058" />
+    <ImageTarget name="airplane" size="75.000000 85.367645" />
+  </Tracking>
+</QCARConfig>

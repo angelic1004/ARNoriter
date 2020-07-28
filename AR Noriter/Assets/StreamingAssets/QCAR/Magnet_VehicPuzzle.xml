@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="puzzle_ufo_2" size="75.000000 71.196754" />
+    <ImageTarget name="puzzle_ufo" size="75.000000 74.380165" />
+    <ImageTarget name="puzzle_truck_2" size="75.000000 77.760735" />
+    <ImageTarget name="puzzle_truck" size="75.000000 77.232140" />
+    <ImageTarget name="puzzle_train_2" size="75.000000 47.770702" />
+    <ImageTarget name="puzzle_train" size="75.000000 46.540180" />
+    <ImageTarget name="puzzle_racingcar_2" size="75.000000 48.855633" />
+    <ImageTarget name="puzzle_racingcar" size="75.000000 47.948719" />
+    <ImageTarget name="puzzle_policecar_2" size="75.000000 61.390533" />
+    <ImageTarget name="puzzle_policecar" size="75.000000 50.000000" />
+    <ImageTarget name="puzzle_helicopter_2" size="75.000000 41.444599" />
+    <ImageTarget name="puzzle_helicopter" size="75.000000 48.677883" />
+    <ImageTarget name="puzzle_firetruck_2" size="75.000000 52.963917" />
+    <ImageTarget name="puzzle_firetruck" size="75.000000 50.330578" />
+    <ImageTarget name="puzzle_excavator_2" size="75.000000 69.919357" />
+    <ImageTarget name="puzzle_excavator" size="75.000000 83.727272" />
+    <ImageTarget name="puzzle_bus_2" size="75.000000 75.000000" />
+    <ImageTarget name="puzzle_bus" size="75.000000 59.670609" />
+    <ImageTarget name="puzzle_ambulance_2" size="75.000000 78.679909" />
+    <ImageTarget name="puzzle_ambulance" size="75.000000 64.128441" />
+  </Tracking>
+</QCARConfig>

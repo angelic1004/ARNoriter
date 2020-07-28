@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="HansARWorld_Alphabet_I" size="50.000000 98.805145" />
+    <ImageTarget name="HansARWorld_Alphabet_Z" size="70.000000 94.057076" />
+    <ImageTarget name="HansARWorld_Alphabet_J" size="65.000000 88.621758" />
+    <ImageTarget name="HansARWorld_Alphabet_L" size="70.000000 100.997337" />
+    <ImageTarget name="HansARWorld_Alphabet_V" size="75.000000 74.028679" />
+    <ImageTarget name="HansARWorld_Alphabet_Y" size="75.000000 77.798508" />
+    <ImageTarget name="HansARWorld_Alphabet_X" size="85.000000 75.373497" />
+    <ImageTarget name="HansARWorld_Alphabet_W" size="100.000000 70.079262" />
+    <ImageTarget name="HansARWorld_Alphabet_U" size="75.000000 73.955429" />
+    <ImageTarget name="HansARWorld_Alphabet_T" size="75.000000 89.037430" />
+    <ImageTarget name="HansARWorld_Alphabet_S" size="75.000000 85.860443" />
+    <ImageTarget name="HansARWorld_Alphabet_R" size="80.000000 87.690018" />
+    <ImageTarget name="HansARWorld_Alphabet_Q" size="65.000000 113.029556" />
+    <ImageTarget name="HansARWorld_Alphabet_P" size="75.000000 77.130684" />
+    <ImageTarget name="HansARWorld_Alphabet_O" size="75.000000 94.427711" />
+    <ImageTarget name="HansARWorld_Alphabet_N" size="75.000000 74.124779" />
+    <ImageTarget name="HansARWorld_Alphabet_M" size="90.000000 75.510201" />
+    <ImageTarget name="HansARWorld_Alphabet_K" size="75.000000 74.598572" />
+    <ImageTarget name="HansARWorld_Alphabet_H" size="75.000000 70.934113" />
+    <ImageTarget name="HansARWorld_Alphabet_G" size="75.000000 92.547806" />
+    <ImageTarget name="HansARWorld_Alphabet_F" size="75.000000 87.972977" />
+    <ImageTarget name="HansARWorld_Alphabet_E" size="75.000000 102.264603" />
+    <ImageTarget name="HansARWorld_Alphabet_D" size="75.000000 88.131042" />
+    <ImageTarget name="HansARWorld_Alphabet_C" size="75.000000 122.061913" />
+    <ImageTarget name="HansARWorld_Alphabet_B" size="100.000000 75.000000" />
+    <ImageTarget name="HansARWorld_Alphabet_A" size="75.000000 90.502396" />
+  </Tracking>
+</QCARConfig>

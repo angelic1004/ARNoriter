@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="real_S" size="100.000000 100.000000" />
+    <ImageTarget name="real_C" size="100.000000 100.000000" />
+    <ImageTarget name="real_I" size="100.000000 100.000000" />
+    <ImageTarget name="real_W" size="100.000000 100.000000" />
+    <ImageTarget name="real_Y" size="100.000000 100.000000" />
+    <ImageTarget name="real_A" size="100.000000 100.000000" />
+    <ImageTarget name="real_B" size="100.000000 100.000000" />
+    <ImageTarget name="real_D" size="100.000000 99.951172" />
+    <ImageTarget name="real_E" size="100.000000 99.951172" />
+    <ImageTarget name="real_F" size="100.000000 100.000000" />
+    <ImageTarget name="real_G" size="100.000000 100.000000" />
+    <ImageTarget name="real_H" size="100.000000 100.000000" />
+    <ImageTarget name="real_J" size="100.000000 100.000000" />
+    <ImageTarget name="real_K" size="100.000000 100.000000" />
+    <ImageTarget name="real_L" size="100.000000 100.000000" />
+    <ImageTarget name="real_M" size="100.000000 100.000000" />
+    <ImageTarget name="real_N" size="100.000000 99.951172" />
+    <ImageTarget name="real_O" size="100.000000 100.000000" />
+    <ImageTarget name="real_P" size="100.000000 100.000000" />
+    <ImageTarget name="real_Q" size="100.000000 99.951172" />
+    <ImageTarget name="real_R" size="100.000000 100.000000" />
+    <ImageTarget name="real_T" size="100.000000 100.000000" />
+    <ImageTarget name="real_U" size="100.000000 100.000000" />
+    <ImageTarget name="real_V" size="100.000000 99.902344" />
+    <ImageTarget name="real_X" size="100.000000 100.000000" />
+    <ImageTarget name="real_Z" size="100.000000 100.048828" />
+  </Tracking>
+</QCARConfig>

@@ -1,0 +1,53 @@
+{
+    "Items": [
+        {
+            "productName": "DINO2",
+            "spriteName": "category_dino",
+            "loadSceneName": "fw_multiTarget",
+            "totalAssetSize": "33",
+            "assetVersion": "1"
+        },
+        {
+            "productName": "DINO3",
+            "spriteName": "category_dino",
+            "loadSceneName": "dino3",
+            "totalAssetSize": "20",
+            "assetVersion": "1"
+        },
+        {
+            "productName": "Test 1111",
+            "spriteName": "btn_qna",
+            "loadSceneName": "qna",
+            "totalAssetSize": "14",
+            "assetVersion": "1"
+        },
+        {
+            "productName": "Test 1111",
+            "spriteName": "btn_qna",
+            "loadSceneName": "qna",
+            "totalAssetSize": "14",
+            "assetVersion": "1"
+        },
+        {
+            "productName": "Test 1111",
+            "spriteName": "btn_qna",
+            "loadSceneName": "qna",
+            "totalAssetSize": "14",
+            "assetVersion": "1"
+        },
+        {
+            "productName": "Test 1111",
+            "spriteName": "btn_qna",
+            "loadSceneName": "qna",
+            "totalAssetSize": "14",
+            "assetVersion": "1"
+        },
+        {
+            "productName": "Test 1111",
+            "spriteName": "btn_qna",
+            "loadSceneName": "qna",
+            "totalAssetSize": "14",
+            "assetVersion": "1"
+        }
+    ]
+}

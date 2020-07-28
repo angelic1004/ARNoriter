@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 47c4ebc5d2d0444b08738a353e3f638b
+timeCreated: 1520572471
+licenseType: Store
+PluginImporter:
+  serializedVersion: 1
+  iconMap: {}
+  executionOrder: {}
+  isPreloaded: 0
+  platformData:
+    Win64:
+      enabled: 1
+      settings:
+        CPU: x86_64
+    Any:
+      enabled: 0
+      settings: {}
+    Editor:
+      enabled: 1
+      settings:
+        CPU: x86_64
+        DefaultValueInitialized: true
+        OS: Windows
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

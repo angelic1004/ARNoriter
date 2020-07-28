@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/HansAR/Scene/00. Loading.unity
+  isLoaded: 1
+  isActive: 1

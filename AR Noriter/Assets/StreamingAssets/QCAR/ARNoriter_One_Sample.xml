@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="SketchFrog" size="100.000000 99.902344" />
+    <ImageTarget name="SktechSpinosaurus" size="100.000000 100.000000" />
+    <ImageTarget name="SketchPolicecar" size="100.000000 100.000000" />
+    <ImageTarget name="SketchLion" size="100.000000 100.000000" />
+    <ImageTarget name="SketchDumptruck" size="100.000000 100.000000" />
+    <ImageTarget name="SketchCrocodile" size="100.000000 100.000000" />
+    <ImageTarget name="SketchAllosaurus" size="100.000000 100.000000" />
+    <ImageTarget name="RealSpinosaurus" size="100.000000 100.000000" />
+    <ImageTarget name="RealPolicecar" size="100.000000 100.000000" />
+    <ImageTarget name="RealLion" size="100.000000 100.000000" />
+    <ImageTarget name="RealDumptruck" size="100.000000 100.000000" />
+    <ImageTarget name="RealCrocodile" size="100.000000 100.000000" />
+    <ImageTarget name="RealAllosaurus" size="100.000000 100.000000" />
+  </Tracking>
+</QCARConfig>

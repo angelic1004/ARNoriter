@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="sketch_raccoonButterflyFish" size="100.000000 100.000000" />
+    <ImageTarget name="sketch_puffer" size="100.000000 100.000000" />
+    <ImageTarget name="sketch_porcupineFish" size="100.000000 100.000000" />
+    <ImageTarget name="sketch_napoleonFish" size="100.000000 99.951172" />
+    <ImageTarget name="sketch_moonJellyfish" size="100.000000 100.000000" />
+    <ImageTarget name="sketch_mantaRay" size="100.000000 100.000000" />
+    <ImageTarget name="sketch_lionFish" size="100.000000 100.000000" />
+    <ImageTarget name="sketch_GreyNurseShark" size="100.000000 99.951172" />
+    <ImageTarget name="sketch_clownFish" size="100.000000 100.000000" />
+    <ImageTarget name="sketch_BlueTang" size="100.000000 100.000000" />
+    <ImageTarget name="sketch_GiantGrouper" size="100.000000 100.000000" />
+    <ImageTarget name="sketch_Moray" size="100.000000 100.000000" />
+    <ImageTarget name="sketch_Turttle" size="100.000000 100.000000" />
+    <ImageTarget name="sketch_Beluga" size="100.000000 100.000000" />
+    <ImageTarget name="sketch_BlackTipShark" size="100.000000 100.000000" />
+  </Tracking>
+</QCARConfig>

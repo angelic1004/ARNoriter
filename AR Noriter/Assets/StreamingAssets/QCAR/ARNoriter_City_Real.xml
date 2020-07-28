@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Real_City_Train" size="100.000000 100.000000" />
+    <ImageTarget name="Real_City_Tow" size="100.000000 100.000000" />
+    <ImageTarget name="Real_City_Taxi" size="100.000000 100.000000" />
+    <ImageTarget name="Real_City_SportCar" size="100.000000 100.000000" />
+    <ImageTarget name="Real_City_Ship" size="100.000000 100.000000" />
+    <ImageTarget name="Real_City_SchoolBus" size="100.000000 100.000000" />
+    <ImageTarget name="Real_City_PoliceCar" size="100.000000 100.000000" />
+    <ImageTarget name="Real_City_Mixer" size="100.000000 100.000000" />
+    <ImageTarget name="Real_City_FruitTruck" size="100.000000 100.000000" />
+    <ImageTarget name="Real_City_FireEngine" size="100.000000 100.000000" />
+    <ImageTarget name="Real_City_Excavator" size="100.000000 100.000000" />
+    <ImageTarget name="Real_City_DumpTruck" size="100.000000 100.000000" />
+    <ImageTarget name="Real_City_Chopper" size="100.000000 100.000000" />
+    <ImageTarget name="Real_City_Ambulance" size="100.000000 100.000000" />
+    <ImageTarget name="Real_City_AirPlane" size="100.000000 100.000000" />
+  </Tracking>
+</QCARConfig>
